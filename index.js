@@ -34,5 +34,3 @@ exports.parse = function(str){
 		port:url.port
 	};
 }
-
-return exports;
