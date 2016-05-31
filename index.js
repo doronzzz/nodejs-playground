@@ -1,15 +1,7 @@
+"use strict";
+
 var exports = module.exports = {};
 var Url = require('url');
-
-
-// 	following format (for : http://www.node.org/docs/index.html):
-// {
-// 	url : “http://www.node.org/docs/index.html” ,
-// 	host: “www.node.org”,
-// 	port: 80,
-// 	file: “index.html”,
-// 	path: “/docs/”
-// }
 
 exports.parse = function(str){
 	var url = Url.parse(str);
